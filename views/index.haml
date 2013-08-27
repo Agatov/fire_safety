@@ -1,0 +1,60 @@
+.white-strip
+  .wrapper.padding1
+    .title
+      Монтаж систем пожарной безопасности по Москве МО.
+      %span.light От 1 000 000 рублей
+
+.wrapper.padding1
+  .benefits
+    .benefit
+      Опыт работы с 2007 года
+    .benefit
+      Более 300 выполненных проектов
+    .benefit
+      Сроки на проект - от 1 дня
+    .benefit
+      6 месяцев бесплатного обслуживания
+
+
+.wrapper
+  .phone
+    8 800 2000 600
+
+
+.wrapper
+  .order-button
+    Заказать консультацию
+
+#map
+
+.modal-overlay
+.modal-dialog
+  .header
+    Заказать консультацию
+  .body
+    %form{action: '#'}
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Заказать консультацию
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
+
+
+%script#balloon-template{type: :template}
+  .balloon
+    .content
+      ООО "Лей из ведра"
+      %br
+      улица Такая, дом 13, офис 42
+      %br
+      тел: 8 800 2000 600
+    .arrow-up
