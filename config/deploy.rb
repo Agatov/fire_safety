@@ -1,8 +1,8 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "finuslug"
-set :repository,  "git@github.com:Agatov/finuslug.git"
+set :application, "fire_safety"
+set :repository,  "git@github.com:Agatov/fire_safety.git"
 
 set :scm, :git
 
