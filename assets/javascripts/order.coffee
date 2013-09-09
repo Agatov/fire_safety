@@ -29,6 +29,8 @@ $ ->
     $('.modal-overlay').bind 'click', ->
       hide_thank_you()
 
+    yaCounter22205110.reachGoal('new_order')
+
     show_thank_you()
 
     false
