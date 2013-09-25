@@ -1,10 +1,24 @@
+.header
+  .wrapper
+    .logo
+      %img{src: '/images/logo.jpg'}
+    .phones
+      8 (499) 390-73-36,
+      8 (925) 191-06-97
+
+      .order-button
+        Заказать звонок бесплатно
+
+
+
 .white-strip
   .wrapper.padding2
     .title
-      Монтаж систем пожарной безопасности по Москве МО.
+      Проектирование и монтаж противопожарных систем
+      %br
       %span.light От 19 000 рублей
 
-.wrapper.padding2
+.wrapper.padding1
   .benefits
     .benefit
       Опыт работы с 2003 года
@@ -16,17 +30,45 @@
       6 месяцев бесплатного обслуживания
 
 
-.wrapper
-  .phone
-    8 925 191 06 97
+.wrapper.padding1
+  .blocks-header
+    Виды выполняемых работ
+
+  .blocks
+    .block
+      Системы пожарной сигнализации
+    .block
+      Системы оповещения
+    .block
+      Противопожарный водопровод и системы пожаротушения
+    .block
+      Подготовка к проверке органов пожарного надзора
+    .block
+      Устранение предписаний органов пожарного надзора
+    .block
+      Планы эвакуации
+    .block
+      Противопожарные мероприятия
+    .block
+      Прохождение проектной документации в органах гос.экспертизы
 
 
-.wrapper
-  .order-button
-    Заказать консультацию
+.gray-strip
+  .wrapper.padding2
+    .form{style: 'margin: 0px auto; width: 1020px'}
+      .text
+        Бесплатная консультация для любого региона
+        .small
+          Просто заполните форму ниже и мы Вам перезвоним
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Заказать консультацию
 
+      .small{style: 'text-align: center; font-size: 14px; padding-top: 20px;'}
+        Ваши контактные данные в безопасности и не будут переданы третьим лицам
 
-#footer
+-##footer
   ФИО: Шеховцов Сергей Васильевич
   %br
   Организация: ООО "Приоритет Плюс"

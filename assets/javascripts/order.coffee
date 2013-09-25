@@ -47,6 +47,11 @@ $ ->
       if data.status == 'ok'
         $('.order-form .success').show 'blind'
 
+
+
+  $('.blocks-header').bind 'click', ->
+    $('.blocks').show()
+
 window.hideFormErrors = ->
   $('input').attr 'style', ''
 
